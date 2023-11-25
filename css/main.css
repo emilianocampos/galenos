@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-color: #1465bb;
+}
+
+.nav-item {
+    font-size: 18px;
+    text-transform: uppercase;
+    height: 82px;
+    line-height: 64px;
+}
+
+.flare {
+    background: #2b2a2a;
+}
+
+.flare a.nav-link {
+    color: #fff !important
+}
+
+.topbarElements>div:nth-of-type(1) {
+    font-size: 48px;
+    margin: 12px 32px;
+    color: #ef662b
+}
+
+.a1 {
+    margin-top: 20px;
+    background-color: #1465bb !important;
+    text-align: center;
+
+
+}
+
+.titles {
+    background-color: #1465bb !important;
+    color: white;
+}
+
+.card {
+    border: #1465bb !important;
+    background-color: #1465bb !important;
+    color: wheat !important;
+}
+
+.img1 {
+    border-radius: 50px;
+    width: 500px;
+  
+    margin: 20px;
+
+}
+
+.lic {
+    margin-top: 20px;
+    background-color: #e9791a;
+    border-radius: 20px;
+
+}
+.info {
+margin: 20px;
+font-size: 1.8rem;
+color: white;
+}
+.a2{
+    text-align: center;
+    margin-top: 50px;
+}
+.iframer{
+width: 800px !important;
+height: 450px !important;
+box-shadow: 10px 12px 18px 1px #000000;
+
+}
+.map{
+    display: flex;
+    justify-content: center !important; 
+    border-radius: 20px;
+}
+.a3{
+    margin-top: 50px;
+    background-color: #1465bb !important;
+    text-align: center;
+    color: white;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1029px) {
+    .navbar-nav {
+        margin-bottom: 15px;
+        text-align: center
+    }
+
+    .img1 {
+        border-radius: 50px;
+        width: 322px !important;
+
+        margin: 10px;
+
+    }
+    .info {
+        margin: 20px;
+        font-size: 1.3rem;
+        color: white;
+        }
+        
+
+    .nav-item {
+        background: rgba(255, 255, 255, 0.1);
+        margin: 2px;
+        overflow: auto;
+    }
+}

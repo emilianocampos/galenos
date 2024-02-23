@@ -40,7 +40,7 @@
 
 .titles {
     background-color: #1465bb !important;
-    color: white;
+    color: rgb(216, 213, 213);
 }
 
 .card {
@@ -58,8 +58,8 @@
 }
 
 .lic {
-    margin-top: 20px;
-    background-color: #e9791a;
+    margin-top: 7px;
+color: rgb(216, 213, 213);
     border-radius: 20px;
 
 }
@@ -71,7 +71,7 @@
 .info {
     margin: 35px;
     font-size: 1.8rem;
-    color: white;
+    color: rgb(216, 213, 213)
 }
 
 .a2 {
@@ -282,7 +282,10 @@ strong {
 .btns:hover span {
     transform: translateX(7px);
 }
+.kine{
+width: 70px;
 
+}
 @media screen and (max-width:1029px) {
     .navbar-nav {
         margin-bottom: 15px;
@@ -299,7 +302,10 @@ strong {
 
         margin: 17px;
     }
-
+    .kine{
+        width: 60px;
+        
+        }
     .img1 {
         border-radius: 50px;
         width: 322px !important;

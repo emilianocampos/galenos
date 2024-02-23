@@ -149,7 +149,9 @@ strong {
     font-size: 1.8rem;
     font-weight: 800 !important;
 }
-
+#carouselExample{
+    margin-bottom: 50px !important;
+}
 
 .carde {
     background-color: #e9791a !important;
@@ -281,7 +283,6 @@ strong {
     transform: translateX(7px);
 }
 
-
 @media screen and (max-width:1029px) {
     .navbar-nav {
         margin-bottom: 15px;
@@ -303,8 +304,8 @@ strong {
         border-radius: 50px;
         width: 322px !important;
 
-        margin: 10px;
-
+     
+        margin-left: -13px !important;
     }
 
     .imglogooj {

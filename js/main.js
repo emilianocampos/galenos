@@ -1,5 +1,9 @@
 AOS.init();
 
+window.addEventListener('DOMContentLoaded', (event) => {
+  var audio = document.getElementById('myAudio');
+  audio.play();
+});
 let carouselInterval = 3000; // Intervalo en milisegundos (por ejemplo, 3000 para 3 segundos)
 let myCarousel = document.getElementById('carouselExample');
 let btn = document.getElementById('sub');
@@ -30,7 +34,7 @@ function Ingreso(nombre, apellido, num, email, consulta) {
 }
 
 //al tocar el boton sale un sweet a 
-btn.addEventListener('click',() => {
+btn.addEventListener('click', () => {
   const Toast = Swal.mixin({
     toast: true,
     position: "top-end",
@@ -48,8 +52,7 @@ btn.addEventListener('click',() => {
   });
 
 
-})  
-
+})
 
 
 

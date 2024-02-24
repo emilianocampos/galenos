@@ -286,6 +286,14 @@ strong {
 width: 70px;
 
 }
+footer{
+    background-color: rgb(29, 29, 29);
+    border-radius: 10px;
+}
+#hol{
+    color:  #1465bb !important;
+}
+
 @media screen and (max-width:1029px) {
     .navbar-nav {
         margin-bottom: 15px;

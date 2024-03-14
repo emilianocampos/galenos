@@ -280,6 +280,9 @@
     border-radius: 20px;
 
 }
+.abtn{
+    font-style: none !important;
+}
 .imglogooj{box-shadow: 10px 3px 14px -6px rgba(0,0,0,0.68);}
 .imglogoos{box-shadow: 10px 3px 14px -6px rgba(0,0,0,0.68);}
 .dede {

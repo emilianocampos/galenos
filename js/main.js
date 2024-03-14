@@ -1,9 +1,12 @@
 AOS.init();
+var typed = new Typed('.title', {
 
-window.addEventListener('DOMContentLoaded', (event) => {
-  var audio = document.getElementById('myAudio');
-  audio.play();
+  strings: ['VOLVE A LAS ACTIVIDADES Y A LOS DEPORTES QUE TE GUSTAN HACER, SIN DOLOR.'],
+  
+  smartBackspace:false,
+    typeSpeed: 1,
 });
+
 let carouselInterval = 3000; // Intervalo en milisegundos (por ejemplo, 3000 para 3 segundos)
 let myCarousel = document.getElementById('carouselExample');
 let btn = document.getElementById('sub');

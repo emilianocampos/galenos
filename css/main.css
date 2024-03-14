@@ -182,7 +182,9 @@
     left: 850px;
     top: 10px;
 }
-
+.w-100{
+    height: 450px !important;
+}
 .animated-button svg {
     position: absolute;
     width: 24px;
